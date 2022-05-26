@@ -18,8 +18,6 @@ const routes: Routes = [
     path: 'sidenav',canActivateChild: [AuthChildGuard],
     children: [
       { path: 'childnav', component: SideNavChildComponent},
-      {path:'childnav2',component:Sidenavchild2Component}
-    
     ]
   },
   
